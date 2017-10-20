@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_color">#388e3c</color>
+    <color name="dark_primary_color">#388e3c</color>
+    <color name="accent_color">#ff5722</color>
+    <color name="white">#ffffff</color>
+    <color name="ascent">#388e3c</color>
+
+    <color name="black">#000000</color>
+    <color name="login_primary">#009688</color> <!-- 500 -->
+    <color name="login_primary_dark">#00796B</color> <!-- 700 -->
+    <color name="login_primary_darker">#00695C</color> <!-- 800 -->
+    <color name="iron">#cccccc</color>
+</resources>

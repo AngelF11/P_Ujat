@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="divs">
+        <item>Seleccione la division</item>
+        <item>(DACEA) Division Academica de Ciencias Economico Admnistrativas</item>
+        <item>(DACA) Division Academica de Ciencias Agropecuarias</item>
+        <item>(DAIS) Division Academica de Informatica y Sistemas</item>
+        <item>(DACB) Division Academica de Ciencias Basicas</item>
+        <item>(DACBIOL) Division Academica de Ciencias Biologicas</item>
+        <item>(DACS) Division Academica de Ciencias de la Salud</item>
+        <item>(DACSYH) Division Academica de Ciencias Sociales Y Humanidades</item>
+        <item>(DAEA) Division Academica de Educación y Artes</item>
+        <item>(DAIA) Division Academica de Ingenieria y Arquitectura</item>
+        <item>(DAMC) Division Academica Multidiciplinaria de Comalcalco</item>
+        <item>(DAMJ) Division Academica Multidiciplinaria de Jalpa de Méndez</item>
+        <item>(DAMR) Division Academica Multidiciplinaria de los Ríos</item>
+    </string-array>
+</resources>

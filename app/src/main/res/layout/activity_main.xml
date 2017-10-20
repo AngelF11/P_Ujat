@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_primary_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:srcCompat="@mipmap/escudo_ujat" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="32dp"
+            android:text="Soporte Técnico"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:hint="Correo Institucional"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp">
+
+        <Button
+
+            android:id="@+id/Button1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.96"
+            android:background="@color/dark_primary_color"
+            android:tag="custom_login_button"
+            android:text="Entrar"
+            android:textColor="@color/white" />
+
+        <Button
+
+            android:id="@+id/Button2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.98"
+            android:background="@color/dark_primary_color"
+            android:tag="custom_signup_button"
+            android:text="Registrarse"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
